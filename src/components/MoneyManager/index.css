@@ -1,0 +1,164 @@
+.app-container {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0px;
+  height: 100px;
+  padding-left: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .form-history-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0px;
+    height: 180px;
+    padding-left: 40px;
+  }
+}
+
+.name {
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.greet {
+  font-size: 13px;
+  padding: 0px;
+  margin-bottom: 1px;
+}
+
+.money-detailsList-container {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.input-el-container {
+  border: 1px solid;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-el-container {
+    border: 1px solid;
+    width: 45%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+
+.add-transaction {
+  font-size: 15px;
+}
+
+.input-el {
+  width: 100%;
+  padding: 7px;
+  border-radius: 2px;
+  border: 1px solid;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.title-el {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.history-container {
+  border: 1px solid;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .history-container {
+    border: 1px solid;
+    border-radius: 5px;
+    width: 50%;
+    height: 300px;
+    padding: 10px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    overflow-y: scroll;
+  }
+}
+
+.history-heading {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.history-inner-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.title-para {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  width: 30%;
+  margin: 0px;
+  padding-left: 7px;
+  padding-top: 7px;
+}
+.history-list-item-container {
+  width: 100%;
+  border: 1px solid;
+  padding-bottom: 10px;
+}
+
+.history-list-container {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.line {
+  width: 100%;
+}
